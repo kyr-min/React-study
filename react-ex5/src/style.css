@@ -1,0 +1,62 @@
+.todo {
+    text-align: center;
+}
+
+.todo .todo-input{
+    margin-top: 50px;
+    position: relative;
+}
+
+.todo .todo-input input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #00c2ab;
+    padding: 0px 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.todo .todo-input button{
+    background-color: #00c2ab;
+    width: 50px;
+    height: 40px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.todo .todo-list{
+    margin-top: 5px;
+    display: inline-block;
+    width: 450px;
+}
+
+.todo .todo-list div:hover{
+    background-color: #00c2ab;
+    color: white;
+}
+
+.todo .todo-list div{   
+    position: relative;
+    padding: 10px 0px;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: left;
+}
+
+.todo .todo-list input{
+    margin-right: 5px;
+}
+
+.todo .todo-list div button{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}

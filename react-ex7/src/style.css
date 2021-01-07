@@ -1,0 +1,16 @@
+.hanriver{
+    background-image: url('./hanriver.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-position: center bottom;
+}
+
+.hanriver-info {
+    float: left;
+    background-color: #ffffff88;
+    width: 100%;
+    margin-top:  200px;
+    padding: 50px 0px;
+}
+

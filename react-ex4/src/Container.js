@@ -4,10 +4,7 @@ import Subject from './Subject'
 import AddForm from './AddFrom'
 
 const Container = () => {
-    let [subjects, setSubjects] = useState([
-        {subject: '수학', score: 100},
-        {subject: '영어', score: 80},
-    ]);
+    let [subjects, setSubjects] = useState([]);
 
     const addSubject = (subject, score) => {
         if(isNaN(score)){
